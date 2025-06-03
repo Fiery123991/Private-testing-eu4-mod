@@ -1,0 +1,17 @@
+Personal_edit_Pru_main = {
+	if = {
+		limit = {
+			or = {
+				culture = prussian
+				culture = saxon
+				culture = pommeranian
+			}
+			
+		}
+		add_province_modifier = {
+			name = PRU_the_prussian_main
+			duration = -1
+		}
+	}
+	else = { remove_province_modifier = PRU_the_prussian_main }
+}
