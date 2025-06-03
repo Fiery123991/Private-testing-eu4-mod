@@ -1,0 +1,15 @@
+on_province_culture_converted = {
+	if = {
+		limit = {
+			owner = {has_country_flag = on_action_set_prussian_main}
+			
+			or = {
+				culture = prussian
+				culture = saxon
+				culture = pommeranian
+			}
+			
+		}
+		Personal_edit_Pru_main = yes
+	}
+}
